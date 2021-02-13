@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Delete Variant</description>
+        <ih_action>true</ih_action>
+        <internal_name>delete_variant</internal_name>
+        <label_cache>[{"name":"{{action.spaceid}}","label":"action➛spaceID","type":"action","ref":""},{"name":"{{action.variantid}}","label":"action➛variantID","type":"action","ref":""},{"name":"{{step[0e145d94-7e54-4662-8937-dde43f1a4877].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>db29f8f90792a410a91bfe4f7c1ed001</latest_snapshot>
+        <master_snapshot>c329b8f90792a410a91bfe4f7c1ed0af</master_snapshot>
+        <name>Delete Variant</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:19:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34c838790792a410a91bfe4f7c1ed048</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Delete Variant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_34c838790792a410a91bfe4f7c1ed048</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=34c838790792a410a91bfe4f7c1ed048"/>
+    <sys_variable_value action="delete_multiple" query="document_key=34c838790792a410a91bfe4f7c1ed048"/>
+    <sys_element_mapping action="delete_multiple" query="id=34c838790792a410a91bfe4f7c1ed048"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>34c838790792a410a91bfe4f7c1ed048</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>0b29b8f90792a410a91bfe4f7c1ed079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_34c838790792a410a91bfe4f7c1ed048</table>
+        <value>{{step[0e145d94-7e54-4662-8937-dde43f1a4877].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=34c838790792a410a91bfe4f7c1ed048^sys_idNOT INfa29b8f90792a410a91bfe4f7c1ed040"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</action>
+        <cid>0e145d94-7e54-4662-8937-dde43f1a4877</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:10</sys_created_on>
+        <sys_id>fa29b8f90792a410a91bfe4f7c1ed040</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa29b8f90792a410a91bfe4f7c1ed040"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3629b8f90792a410a91bfe4f7c1ed066</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3a29b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>delete</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7229b8f90792a410a91bfe4f7c1ed066</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>https://api-beta.gitbook.com/v1</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7629b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>be29b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>fa29b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>33f12eb0071ee010a91bfe4f7c1ed03e</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa29b8f90792a410a91bfe4f7c1ed040"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>f229b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3229b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7e29b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>f629b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3629b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>ba29b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>spaces/{{action.spaceid}}/content/v/{{action.variantid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7229b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=fa29b8f90792a410a91bfe4f7c1ed040^sys_idNOT INb629b8f90792a410a91bfe4f7c1ed058"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">fa29b8f90792a410a91bfe4f7c1ed040</model>
+        <model_id>fa29b8f90792a410a91bfe4f7c1ed040</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_fa29b8f90792a410a91bfe4f7c1ed040</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>b629b8f90792a410a91bfe4f7c1ed058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=34c838790792a410a91bfe4f7c1ed048^sys_idNOT IN7a29b8f90792a410a91bfe4f7c1ed032,b629b8f90792a410a91bfe4f7c1ed039"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2e39e7c1-e746-4763-8f2c-5863cc718cd7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>spaceid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>spaceID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</model>
+        <model_id>34c838790792a410a91bfe4f7c1ed048</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_34c838790792a410a91bfe4f7c1ed048</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:10</sys_created_on>
+        <sys_id>7a29b8f90792a410a91bfe4f7c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ad7a2bd-25d5-4523-af54-31c19cd7bd0c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variantid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variantID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</model>
+        <model_id>34c838790792a410a91bfe4f7c1ed048</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_34c838790792a410a91bfe4f7c1ed048</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:10</sys_created_on>
+        <sys_id>b629b8f90792a410a91bfe4f7c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=34c838790792a410a91bfe4f7c1ed048^sys_idNOT INf629b8f90792a410a91bfe4f7c1ed06c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDb229b8f96892a4108da2ce9a73aa296a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=0e145d94-7e54-4662-8937-dde43f1a4877,sourceType=step,sourceUiUniqueId=56abf2ad-9871-4781-acbe-464876c99588,uiType=object,uiTypeLabel=Object,uiUniqueId=f3a6c5f6-dc44-4ef9-af1e-2877037b25b7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</model>
+        <model_id>34c838790792a410a91bfe4f7c1ed048</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_34c838790792a410a91bfe4f7c1ed048</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>f629b8f90792a410a91bfe4f7c1ed06c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=34c838790792a410a91bfe4f7c1ed048^sys_idNOT INfa29b8f90792a410a91bfe4f7c1ed040"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</action>
+        <cid>0e145d94-7e54-4662-8937-dde43f1a4877</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:10</sys_created_on>
+        <sys_id>fa29b8f90792a410a91bfe4f7c1ed040</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa29b8f90792a410a91bfe4f7c1ed040"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3629b8f90792a410a91bfe4f7c1ed066</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3a29b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>delete</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7229b8f90792a410a91bfe4f7c1ed066</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>https://api-beta.gitbook.com/v1</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7629b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>be29b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fa29b8f90792a410a91bfe4f7c1ed040</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>fa29b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <value>33f12eb0071ee010a91bfe4f7c1ed03e</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa29b8f90792a410a91bfe4f7c1ed040"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>f229b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3229b8f90792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7e29b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>f629b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>3629b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>ba29b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>spaces/{{action.spaceid}}/content/v/{{action.variantid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>fa29b8f90792a410a91bfe4f7c1ed040</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>7229b8f90792a410a91bfe4f7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=fa29b8f90792a410a91bfe4f7c1ed040^sys_idNOT INb629b8f90792a410a91bfe4f7c1ed058"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">fa29b8f90792a410a91bfe4f7c1ed040</model>
+        <model_id>fa29b8f90792a410a91bfe4f7c1ed040</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_fa29b8f90792a410a91bfe4f7c1ed040</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>b629b8f90792a410a91bfe4f7c1ed058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_34c838790792a410a91bfe4f7c1ed048^sys_idNOT INf229b8f90792a410a91bfe4f7c1ed03e,fe29b8f90792a410a91bfe4f7c1ed037"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variantid</element>
+        <help/>
+        <hint/>
+        <label>variantID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_34c838790792a410a91bfe4f7c1ed048</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:10</sys_created_on>
+        <sys_id>f229b8f90792a410a91bfe4f7c1ed03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>spaceid</element>
+        <help/>
+        <hint/>
+        <label>spaceID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_34c838790792a410a91bfe4f7c1ed048</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:10</sys_created_on>
+        <sys_id>fe29b8f90792a410a91bfe4f7c1ed037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_34c838790792a410a91bfe4f7c1ed048^sys_idNOT INfe29b8f90792a410a91bfe4f7c1ed071"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_34c838790792a410a91bfe4f7c1ed048</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:11</sys_created_on>
+        <sys_id>fe29b8f90792a410a91bfe4f7c1ed071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=34c838790792a410a91bfe4f7c1ed048^sys_idNOT IN6f29f8f90792a410a91bfe4f7c1ed07f"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6f29f8f90792a410a91bfe4f7c1ed07f","name":"plan"}}</plan>
+        <snapshot>db29f8f90792a410a91bfe4f7c1ed001</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f29f8f90792a410a91bfe4f7c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:14</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Delete Variant</description>
+        <internal_name>delete_variant</internal_name>
+        <label_cache>[{"name":"{{action.spaceid}}","label":"action➛spaceID","type":"action","ref":""},{"name":"{{action.variantid}}","label":"action➛variantID","type":"action","ref":""},{"name":"{{step[0e145d94-7e54-4662-8937-dde43f1a4877].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Delete Variant</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Delete Variant">34c838790792a410a91bfe4f7c1ed048</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c329b8f90792a410a91bfe4f7c1ed0af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c329b8f90792a410a91bfe4f7c1ed0af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c329b8f90792a410a91bfe4f7c1ed0af"/>
+    <sys_element_mapping action="delete_multiple" query="id=c329b8f90792a410a91bfe4f7c1ed0af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>c329b8f90792a410a91bfe4f7c1ed0af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>d729f8f90792a410a91bfe4f7c1ed000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c329b8f90792a410a91bfe4f7c1ed0af</table>
+        <value>{{step[0e145d94-7e54-4662-8937-dde43f1a4877].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c329b8f90792a410a91bfe4f7c1ed0af^sys_idNOT IN8f29b8f90792a410a91bfe4f7c1ed0bf"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Variant">c329b8f90792a410a91bfe4f7c1ed0af</action>
+        <cid>0e145d94-7e54-4662-8937-dde43f1a4877</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>8f29b8f90792a410a91bfe4f7c1ed0bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f29b8f90792a410a91bfe4f7c1ed0bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>1f29b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>33f12eb0071ee010a91bfe4f7c1ed03e</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5729b8f90792a410a91bfe4f7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5b29b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>delete</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9329b8f90792a410a91bfe4f7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>https://api-beta.gitbook.com/v1</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9729b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>df29b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f29b8f90792a410a91bfe4f7c1ed0bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>1729b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5329b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9f29b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>1b29b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5729b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>db29b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>spaces/{{action.spaceid}}/content/v/{{action.variantid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9329b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8f29b8f90792a410a91bfe4f7c1ed0bf^sys_idNOT INc729b8f90792a410a91bfe4f7c1ed0c6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">8f29b8f90792a410a91bfe4f7c1ed0bf</model>
+        <model_id>8f29b8f90792a410a91bfe4f7c1ed0bf</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8f29b8f90792a410a91bfe4f7c1ed0bf</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>c729b8f90792a410a91bfe4f7c1ed0c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=c329b8f90792a410a91bfe4f7c1ed0af^sys_idNOT IN4f29b8f90792a410a91bfe4f7c1ed0b1,8b29b8f90792a410a91bfe4f7c1ed0b8"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2e39e7c1-e746-4763-8f2c-5863cc718cd7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>spaceid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>spaceID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Variant">c329b8f90792a410a91bfe4f7c1ed0af</model>
+        <model_id>c329b8f90792a410a91bfe4f7c1ed0af</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c329b8f90792a410a91bfe4f7c1ed0af</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>4f29b8f90792a410a91bfe4f7c1ed0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ad7a2bd-25d5-4523-af54-31c19cd7bd0c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variantid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variantID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Variant">c329b8f90792a410a91bfe4f7c1ed0af</model>
+        <model_id>c329b8f90792a410a91bfe4f7c1ed0af</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c329b8f90792a410a91bfe4f7c1ed0af</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>8b29b8f90792a410a91bfe4f7c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=c329b8f90792a410a91bfe4f7c1ed0af^sys_idNOT IN9729b8f90792a410a91bfe4f7c1ed0f3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDd329b8f98392a4103e02a5f0eb2a5ad8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=0e145d94-7e54-4662-8937-dde43f1a4877,sourceType=step,sourceUiUniqueId=56abf2ad-9871-4781-acbe-464876c99588,uiType=object,uiTypeLabel=Object,uiUniqueId=f3a6c5f6-dc44-4ef9-af1e-2877037b25b7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Delete Variant">c329b8f90792a410a91bfe4f7c1ed0af</model>
+        <model_id>c329b8f90792a410a91bfe4f7c1ed0af</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_c329b8f90792a410a91bfe4f7c1ed0af</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9729b8f90792a410a91bfe4f7c1ed0f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=c329b8f90792a410a91bfe4f7c1ed0af^sys_idNOT IN8f29b8f90792a410a91bfe4f7c1ed0bf"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Delete Variant">c329b8f90792a410a91bfe4f7c1ed0af</action>
+        <cid>0e145d94-7e54-4662-8937-dde43f1a4877</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>8f29b8f90792a410a91bfe4f7c1ed0bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f29b8f90792a410a91bfe4f7c1ed0bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>1f29b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>33f12eb0071ee010a91bfe4f7c1ed03e</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5729b8f90792a410a91bfe4f7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5b29b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>delete</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9329b8f90792a410a91bfe4f7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>https://api-beta.gitbook.com/v1</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9729b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f29b8f90792a410a91bfe4f7c1ed0bf</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>df29b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f29b8f90792a410a91bfe4f7c1ed0bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>1729b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5329b8f90792a410a91bfe4f7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9f29b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>1b29b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>5729b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>db29b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>spaces/{{action.spaceid}}/content/v/{{action.variantid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>8f29b8f90792a410a91bfe4f7c1ed0bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9329b8f90792a410a91bfe4f7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8f29b8f90792a410a91bfe4f7c1ed0bf^sys_idNOT INc729b8f90792a410a91bfe4f7c1ed0c6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">8f29b8f90792a410a91bfe4f7c1ed0bf</model>
+        <model_id>8f29b8f90792a410a91bfe4f7c1ed0bf</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8f29b8f90792a410a91bfe4f7c1ed0bf</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>c729b8f90792a410a91bfe4f7c1ed0c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c329b8f90792a410a91bfe4f7c1ed0af^sys_idNOT INc329b8f90792a410a91bfe4f7c1ed0b7,c729b8f90792a410a91bfe4f7c1ed0bd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>spaceid</element>
+        <help/>
+        <hint/>
+        <label>spaceID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c329b8f90792a410a91bfe4f7c1ed0af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>c329b8f90792a410a91bfe4f7c1ed0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variantid</element>
+        <help/>
+        <hint/>
+        <label>variantID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c329b8f90792a410a91bfe4f7c1ed0af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>c729b8f90792a410a91bfe4f7c1ed0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c329b8f90792a410a91bfe4f7c1ed0af^sys_idNOT IN9f29b8f90792a410a91bfe4f7c1ed0f8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>Response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c329b8f90792a410a91bfe4f7c1ed0af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_id>9f29b8f90792a410a91bfe4f7c1ed0f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

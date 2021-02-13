@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7c3138354392a4107d7f84889bec6764</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>db89c2bc075ae010a91bfe4f7c1ed0ac</scope_name>
+        <serialized_content>{"FlowDesigner:FD7c3138354392a4107d7f84889bec6764":{},"FlowDesigner:FD7c3138354392a4107d7f84889bec6764.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"9a8dfbb8-7909-482e-8709-30cccbd33944\",\"default_value\":\"\",\"label\":\"Response\",\"mandatory\":\"false\",\"uiUniqueId\":\"d021b9ac-3019-4bbf-8363-5598e3b6d008\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD7c3138354392a4107d7f84889bec6764\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"95389649-bbf8-4dc8-86a3-fb7faea70886\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 13:46:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>303138350792a410a91bfe4f7c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7c3138354392a4107d7f84889bec6764</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name>sys_complex_object_303138350792a410a91bfe4f7c1ed065</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 13:46:21</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa7004cbdafde6410444857abb8012b02</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>db89c2bc075ae010a91bfe4f7c1ed0ac</scope_name>
+        <serialized_content>{"FlowDesigner:FDa7004cbdafde6410444857abb8012b02":{"uid":"String","uid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"uid\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"171a7bf7-8ba0-4c97-bf9b-468cfc3cd743\"}"},"baseDomain":"String","baseDomain.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"baseDomain\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"921d91d7-8849-4d6d-b6ed-f5084d845995\"}"},"kind":"String","kind.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"kind\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"c2de55d8-df8d-42d5-9bca-e83e5083b5f6\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"title\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"cec83a0f-3d77-4d47-8592-a1c757920161\"}"}},"FlowDesigner:FDa7004cbdafde6410444857abb8012b02.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"ab771fae-cdc1-4d8b-ba07-5befe45f2605\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa7004cbdafde6410444857abb8012b02\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 10:11:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab004cbd07de6410a91bfe4f7c1ed002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa7004cbdafde6410444857abb8012b02</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name>sys_complex_object_ab004cbd07de6410a91bfe4f7c1ed002</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 10:11:38</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

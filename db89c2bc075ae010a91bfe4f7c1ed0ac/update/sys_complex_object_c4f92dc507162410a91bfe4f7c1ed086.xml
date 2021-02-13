@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD04f92dc5341624104f843b5f875db186</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>db89c2bc075ae010a91bfe4f7c1ed0ac</scope_name>
+        <serialized_content>{"FlowDesigner:FD04f92dc5341624104f843b5f875db186":{},"FlowDesigner:FD04f92dc5341624104f843b5f875db186.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"variable\",\"mandatory\":\"true\",\"uiUniqueId\":\"80d800b6-3cde-4cd7-b9b1-5ecb4dab230f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD04f92dc5341624104f843b5f875db186\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 09:58:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4f92dc507162410a91bfe4f7c1ed086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD04f92dc5341624104f843b5f875db186</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name>sys_complex_object_c4f92dc507162410a91bfe4f7c1ed086</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 09:58:49</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

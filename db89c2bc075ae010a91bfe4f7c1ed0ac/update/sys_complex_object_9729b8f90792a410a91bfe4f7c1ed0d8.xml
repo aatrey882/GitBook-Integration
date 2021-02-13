@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd329b8f98392a4103e02a5f0eb2a5ad8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>db89c2bc075ae010a91bfe4f7c1ed0ac</scope_name>
+        <serialized_content>{"FlowDesigner:FDd329b8f98392a4103e02a5f0eb2a5ad8":{},"FlowDesigner:FDd329b8f98392a4103e02a5f0eb2a5ad8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"0e145d94-7e54-4662-8937-dde43f1a4877\",\"default_value\":\"\",\"label\":\"Response\",\"mandatory\":\"false\",\"uiUniqueId\":\"f3a6c5f6-dc44-4ef9-af1e-2877037b25b7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd329b8f98392a4103e02a5f0eb2a5ad8\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"56abf2ad-9871-4781-acbe-464876c99588\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 14:21:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9729b8f90792a410a91bfe4f7c1ed0d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDd329b8f98392a4103e02a5f0eb2a5ad8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitBook ServiceNow Integration" source="x_310236_git_bk_sn">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitBook ServiceNow Integration">db89c2bc075ae010a91bfe4f7c1ed0ac</sys_scope>
+        <sys_update_name>sys_complex_object_9729b8f90792a410a91bfe4f7c1ed0d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 14:21:12</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
